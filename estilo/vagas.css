@@ -1,0 +1,43 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em 0;
+    margin-bottom: 4em;
+}
+
+.vagas__talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.vagas__talentos-vagas {
+    color: var(--vinho);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.vagas__talentos-titulo {
+    color: var(--preto);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.vagas__talentos-descricao {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    text-align-last: center;
+    margin-bottom: 3em;
+}
+
+.vagas__talentos-imagem {
+    display: flex;
+    align-items: center;
+}
